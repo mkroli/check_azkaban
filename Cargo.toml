@@ -1,0 +1,8 @@
+[package]
+name = "check_azkaban"
+version = "0.1.0"
+authors = ["Michael Krolikowski <mkroli@yahoo.de>"]
+
+[dependencies]
+azkaban-client = { git = "https://github.com/mkroli/azkaban-client" }
+clap = "2.9.2"
